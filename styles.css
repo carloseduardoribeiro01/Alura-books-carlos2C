@@ -1,17 +1,16 @@
 @import url(style/header.css);
-
 :root{
- --cor-de-fundo: #EBECEE;
-  --branco: #ffffff;
-  --laranja: #EB9B00;
-  --azul-degrade: darkblue;
+    --cor-de-fundo:#EBECEE;
+    --branco: #ffffff;
+    --laranja: #EB9B00;
+    --azul-degrade: darkblue;
     --azul: #002F52;
     --preto: #000000;
     --cinza: #474646;
-    --cinza-claro: #858585;                             
-}        
+    --cinza-claro: #858585;
+}
 
 body{
- background-color: var(--cor-de-fundo);
+    background-color: var(--cor-de-fundo);
 }
-                                
+
