@@ -1,78 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
-	<link rel="stylesheet" href="styles.css">
-	<link rel="stylesheet" href="reset.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Murillo e Rhuan </title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<header class="cabeçalho">
-		<div class="container">
-			<input type="checkbox" id="menu" class="container__botao">
-			<label for="menu">
-			<span class="cabeçalho__menu-hamburguer container__imagem"></span>
-		</label>
-		<ul class="lista-menu">
-			<li class="lista-menu__titulo">Categorias</li>
-			<li class="lista-menu__item">
-				<a href="#" class="lista-menu__link">Aventura</a>
-			</li>
-			<li class="lista-menu__item">
-				<a href="#" class="lista-menu__link">Biografia</a>
-			</li>
-			<li class="lista-menu__item">
-				<a href="#" class="lista-menu__link">Ficção Científica</a>
-			</li>
-			<li class="lista-menu__item">
-				<a href="#" class="lista-menu__link">Romance</a>
-			</li>
-			<li class="lista-menu__item">
-				<a href="#" class="lista-menu__link">Vestibular</a>
-			</li>
-		</ul>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+        <label for="menu" class="container__rotulo">
+            <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+        </label>
+        <ul class="lista-menu">
+            <li class="lista-menu__titulo">Categorias</li>
+            <li class="lista-menu__item">
+               <a href="#" class="lista-menu__link">Aventura</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Biografia</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Ficção Científica</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Romance</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Vestibular</a>
+            </li>
+     </ul>     
+           <img src="img/Logo.svg" alt="Logo da AluraBooks" class="container__imagem">
+           <h1 class="container__titulo"> Alura <b class="container__titulo--negrito">Books </b> </h1><!---->
+        </div>
 
-			<img src="img/logo.svg" alt="Logo Alura">
-			<h1> Livraria da 2ª Série C </h1>
-			
-		</div>
-		<div>
 
-	<ul class="opções">
-		<input type="checkbox" id="opções-menu" class="opções__botão">
-			<label for="opções-menu" class="opções__rotulo">
-				<li class="opções__item"> Categorias ...</li>
-			</label>
-	<ul class="lista-menu"> <!-- essa lista e identica a do menu hamburguer -->
-		<li class="lista-menu__item">
-			<a href="#" class="lista-menu__link">Programação</a>
-		</li>
-		<li class="lista-menu__item">
-			<a href="#" class="lista-menu__link">Front-end</a>
-		</li>
-		<li class="lista-menu__item">
-			<a href="#" class="lista-menu__link">Infraestrutura</a>
-		</li>
-		<li class="lista-menu__item">
-			<a href="#" class="lista-menu__link">Business</a>
-		</li>
-		<li class="lista-menu__item">
-			<a href="#" class="lista-menu__link">Design & UX</a>
-		</li>
-	</ul>
-		<li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
-		<li class="opções__item"><a href="#" class="opções__link">Minha estante</a></li>
-	</ul>
+    <ul class="opções">
+        <input type="checkbox" id="opções-menu" class="opções__botão">
+        <label for="opções-menu" class="opções__rotulo">
+            <li class="opções__item"> Categorias ...</li>
+        </label>
+        <ul class="lista-menu"> <!-- essa lista e identica a do menu hamburguer -->
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Programação</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Front-end</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Infraestrutura</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Business</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Design & UX</a>
+            </li>
+        </ul>
+        <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+        <li class="opções__item"><a href="#" class="opções__link">Minha estante</a></li>
+    </ul>
 
-			<a href="#"><img src="img/Favoritos.svg" alt="Favoritos" class="container__imagem container-transparente"> </a>
-
-			<a href="#"><img src="img/compras.svg" alt="Compras" class="container__imagem"> </a>
-             <P> Minhas Compras </P>
-			<a href="#"><img src="img/usuário.svg" alt="Usuario" class="container__imagem"> </a>
-            <P> <class="container__texto"> Meu Perfil </P>
-		</div>
-	</header>
+    <div class="container">
+        <a href="#"><img src="img/Favoritos.svg" alt="" class="container__imagem container__imagem-transparente"></a><!-- add img transparente class-->
+            <a href="#"><img src="img/Compras.svg" alt="" class="container__imagem"></a>
+            <p class="container__texto"> Minhas Compras </p>
+            <a href="#"><img src="img/Usuário.svg" alt="" class="container__imagem"></a>
+            <p class="container__texto"> Meu Perfil </p>
+        </div>
+    </header>
+    
+   <section class="banner">   
+    <h2 class="banner__titulo">já sabe por onde comçar? </h2>
+    <p class="banner__texto">
+        Encontre em nossa estante o que precisa para seu desenvolvimento !
+    </p>
+    <input type="searche" class="banner__pesquisa" placeholder="Qual sua próxima leitura?">
+   </section>
 
 </body>
 </html>
